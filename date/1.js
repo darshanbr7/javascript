@@ -1,0 +1,5 @@
+let a= new Date()
+console.log(a)
+console.log(a.getDate())
+console.log(a.getHours())
+console.log(a.getFullYear())
