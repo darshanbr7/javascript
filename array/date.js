@@ -1,9 +1,7 @@
-function getdate(){
-let date=new Date();
- let hour= date.getHours();
+let date=new Date()
 
- let newdate=date.getHours()+":"+ setInterval(()=>{
-    date.getSeconds();
-   },[1000])
-   console.log(newdate)
-}
+  let getdate=  setInterval(()=>{
+        date.getSeconds();
+    },[1000])
+
+console.log(date.getHours()+" : "+date.getMinutes()+" : "+getdate)
