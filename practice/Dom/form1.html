@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body onsubmit=" return check()">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 " >
+            <div class="card">
+              <div class="row">
+                <div class="col-3"></div>
+                <div class="col">
+                    <div class="card-headder mt-5">
+                        Registration Form
+                    </div>
+                </div>
+              </div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label >User Name:</label>
+                            <input type="text" class="form-control" id="Uname" />
+                            <div id="uname"></div>
+                        </div>
+                        <div class="form-group">
+                            <label >Email:</label>
+                            <input type="text" class="form-control" id="Uemail" />
+                            <div id="uemail"></div>
+                        </div>
+                        <div class="form-group">
+                            <label >Password:</label>
+                            <input type="text" class="form-control" id="Upass" />
+                            <div id="upass"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col">
+                                <button class="btn btn-primary"> Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script>
+      function check(){
+        let Name=document.getElementById("Uname").value
+        let Email=document.getElementById("Uemail").value
+        let Pass=document.getElementById("Upass").value
+        if(Name.length<6){
+            document.
+        }
+         return false
+      }
+  </script>
+</html>
