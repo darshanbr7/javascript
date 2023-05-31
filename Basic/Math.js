@@ -23,8 +23,21 @@ console.log(Math.floor(10.99)); // 10
 // max() -- this method compares the given values  and return the largest one
 console.log(Math.max(10,20,30,40))
 
-console.log(Math.max(10,20,30,40))
-console.log(Math.max(10,20,30,40))
-console.log(Math.max(10,20,30,40))
-// max() -- this method compares the given values  and return the largest one
+// min() -- this method compaeres thr given value and return the minimum one
+console.log(Math.min(10,20,40,50));
+
+/// pow() -- this method returns the value of the pase of the components
+console.log(Math.pow(10,2));
+console.log(Math.pow(10,3));
+
+//random()  -- this method return the new value between 0 & 1
+console.log(Math.random());
+
+// round() --> this method return the closest integer to  the given number
+console.log(Math.round(10.009));
+console.log(Math.round(10.6));
+
+// sqrt() --> this method return the sqrt t of the given number
+console.log(Math.sqrt(10));
+console.log(Math.exp(10));
 
