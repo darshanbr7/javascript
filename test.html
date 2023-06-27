@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="top">Top</p>
+    <span id="left">left</span>
+    <span id="center">center</span>
+    <span id="right">right</span>
+    <p id="bottom">Bottom</p>  
+</body>
+<script>
+    document.getElementById("top").style.color="red"
+    let elements=document.getElementsByTagName("p")
+    for(let ele of elements){
+        ele.style.color="white"
+    }
+    document.querySelector("#left")
+    document.querySelector("span").style.fontFamily="arial"
+       let spans=  document.querySelectorAll("span")
+       for(let ele of spans){
+        ele.style.backgroundColor="green"
+    }
+    console.log(document.children)
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <ul id="tag">
+        <li>a</li>
+        <li>abbr</li>
+        <li>bold</li>
+        <li>h1</li>
+    </ul>
+</body>
+<script>
+  //  documet.querySelector("#tag")
+    let ulTag=document.getElementById("tag")
+    console.log(ulTag);
+    console.log(ulTag.children);
+    // .children -- it return  collection of li's
+
+    console.log("first list item" , ulTag.firstElementChild);
+    // .firstElementChild - it return the first Element 
+
+    console.log("last list item" , ulTag.lastElementChild);
+    // .lastElementChild - it return the last Element 
+</script>
+</html>
